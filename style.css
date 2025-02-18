@@ -1,0 +1,38 @@
+header{
+    color: #ff8000;
+    text-align: center;
+    background-color: black;
+    height: 60px;
+    padding: 30px;
+}
+body{
+    margin: 0;
+    font-size: 20px;
+    background-color: #ff8000;
+}
+h2{
+    text-align: center;
+}
+.cols{
+    display:flex;
+}
+.col{
+    text-align: center;
+    margin: 10px auto;
+    width: 250px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+}
+.cols1{
+    display:flex;
+}
+.col1{
+    text-align: center;
+     margin: 10px auto;
+    width: 250px;
+}
+.button{
+    margin: 0 auto;
+}
