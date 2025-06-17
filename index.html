@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>call of duty zombies</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<div class="wrapper">
     <header>
-<h1>call of duty zombies</h1>
+        <h1>call of duty zombies</h1>
+
+        <div class="navbar-wrapper" id="navbarWrapper">
+            <button class="toggle-btn" onclick="toggleNav()">☰</button>
+        
+            <div class="navbar-container" id="navbar">
+              <a class="nav-item" href="./index.html">Hjem</a>
+              <a class="nav-item" href="./pages/world at war.html">Call of Duty: World at War</a>
+              <a class="nav-item" href="./pages/blackOps.html">Black Ops seris</a>
+              <a class="nav-item" href="./pages/world war 2.html">Call of Duty: WWII</a>
+            </div>
+        </div>
     </header>
+
     <main>
-       <p><b>Call of DutyZombies</b> is a popular game mode that debuted in Call of Duty: World at War (2008) and has since become a staple of the franchise. It features a cooperative survival gameplay experience, where players face off against waves of increasingly difficult zombie enemies. Over the years, the Zombies mode has expanded into its own unique storyline and lore, featuring distinct maps, characters, and settings.</p>
+        <article class="text">
+            <p><span id="bold">Call of Duty: Zombies</span> is a popular game mode that debuted in Call of Duty: World at War (2008) and has since become a staple of the franchise. It features a cooperative survival gameplay experience, where players face off against waves of increasingly difficult zombie enemies. Over the years, the Zombies mode has expanded into its own unique storyline and lore, featuring distinct maps, characters, and settings. </p>
 
-<p> gameplay generally involves players fending off zombies while completing objectives, unlocking areas, and upgrading weapons. One of the key elements of the mode is the "perks" system, where players can drink special drinks that grant them abilities, like quicker reloads or more health. Players can also earn points by killing zombies, which they use to open doors, buy weapons, and upgrade equipment.</p>
+            <p>gameplay generally involves players fending off zombies while completing objectives, unlocking areas, and upgrading weapons. One of the key elements of the mode is the "perks" system, where players can drink special drinks that grant them abilities, like quicker reloads or more health. Players can also earn points by killing zombies, which they use to open doors, buy weapons, and upgrade equipment.</p> 
+        </article>
+            
+            <h2>Key Features:</h2>
 
-<h2>Key Features:</h2>
- <div class="cols">
- <div class="col"> 
-    <h3> play:</h3> 
-<p>Up to four players can join a match to fight zombies together.</p>
- </div>  <!--col end -->
- <div class="col"> 
-    <h3> Perks:</h3>
- <p> Various perks like Juggernog (more health)</p><p>and Speed Cola (faster reload) help players survive longer.</p>
- </div> 
- <div class="col"> 
-    <h3> Easter eggs and storyline:</h3>
-<p> Each Zombies map often has hidden quests (known as Easter eggs) that tie into a larger, mysterious storyline.</p>
+        <section class="cols">
+            <div class="col"> 
+                <h3> play:</h3> 
+                <p>Up to four players can join a match to fight zombies together.</p>
+            </div>  <!--col end -->
 
- </div> 
- <div class="col"> 
-    <h3> Map Design: </h3>
-<p> Maps have different themes, from a World War II bunker to futuristic or even apocalyptic settings.</p>
+            <div class="col"> 
+                <h3> Perks:</h3>
+                <p> Various perks like Juggernog (more health)</p><p>and Speed Cola (faster reload) help players survive longer.</p>
+            </div>
 
- </div> 
-</div> <!--cols end -->
-<p>The mode has evolved with every new Call of Duty release, introducing new maps, features, and characters. Some players are especially drawn to its deep lore, involving secret organizations, time travel, and apocalyptic events.</p>
+            <div class="col"> 
+                <h3>Easter eggs and storyline:</h3>
+                <p>Each Zombies map often has hidden quests (known as Easter eggs) that tie into a larger, mysterious storyline.</p>
+            </div> 
 
-<h2>Games</h2>
-<div class="cols1">
-    <div class="col1"> 
-<h3>Call of Duty: World at War </h3>
-<a href="world at war.html"> <img src="/images/cod waw.jpg" alt="call of duty world at war"></a>
-    </div><!-- col1 end -->
-    <div class="col1"> 
-        <h3>Black Ops seris</h3>
-        <a href="black ops.html"><img src="/images/Zombies_bo.webp" alt="call of duty black ops zombies"></a>
-    </div><!-- col1 end -->
-    <div class="col1"> 
-        <h3>Call of Duty: WWII</h3>
-       <a href="world war 2.html"> <img src="/images/download.jpg" alt="call of duty world war 2 zombies"></a>
-    </div><!-- col1 end -->
-</div> <!-- cols1 end -->
+            <div class="col"> 
+                <h3>Map Design: </h3>
+                <p>Maps have different themes, from a World War II bunker to futuristic or even apocalyptic settings.</p>
+            </div> 
+        </section> <!--cols end -->
+
+        <p class="text">The mode has evolved with every new Call of Duty release, introducing new maps, features, and characters. Some players are especially drawn to its deep lore, involving secret organizations, time travel, and apocalyptic events.</p>
+
+        <h2>Some of the Games</h2>
+        <div class="cols1">
+            <div class="col1"> 
+              <a href="./pages/world at war.html">  <h3>Call of Duty: World at War </h3></a>
+                <a href="./pages/world at war.html"> <img src="/images/cod waw.jpg" alt="call of duty world at war"></a>
+            </div><!-- col1 end -->
+
+            <div class="col1"> 
+               <a href="./pages/blackOps.html"> <h3>Black Ops seris</h3></a>
+                <a href="./pages/blackOps.html"><img src="/images/Zombies_bo.webp" alt="call of duty black ops zombies"></a>
+            </div><!-- col1 end -->
+
+            <div class="col1"> 
+              <a href="./pages/world war 2.html">  <h3>Call of Duty: WWII</h3></a>
+                <a href="./pages/world war 2.html"> <img src="/images/download.jpg" alt="call of duty world war 2 zombies"></a>
+            </div><!-- col1 end -->
+        </div> <!-- cols1 end -->
     </main>
     <footer></footer>
+</div>
+    <script src="./script.js"></script>
 </body>
 </html>
+
 
